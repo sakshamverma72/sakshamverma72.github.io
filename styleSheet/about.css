@@ -1,5 +1,7 @@
 
-
+#nav-menu{
+    display: none;
+}
 #about{
     display: flex;
     justify-content: space-between;
