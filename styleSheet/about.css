@@ -1,10 +1,9 @@
-
-#nav-menu{
-    display: none;
-}
 #about{
     display: flex;
     justify-content: space-between;
+}
+#nav-menu{
+    
 }
 .about-1{
     width: 50%;
