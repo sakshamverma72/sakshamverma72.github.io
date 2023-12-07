@@ -93,3 +93,6 @@
     display: flex;
     align-items: center;
 }
+.home-img{
+    width: auto;
+}
