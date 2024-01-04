@@ -2,816 +2,407 @@
 <html lang="en">
 
 <head>
-	<title>Saksham</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" sizes="192x192" href="images/logo.png">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saksham Verma</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
-	<link rel="stylesheet" href="css/animate.css">
-
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-calendar/dist/github-calendar.css">
-	<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
-	<style>
-		#calendar {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-	.home-img{
-		width: auto;
-	}
-    .calendar-graph {
-			width: 100%;
-      background-color: #f5f5f5;
-      padding: 10px;
-      border-radius: 4px;
-      overflow: hidden;
-    }
-		
-    .calendar-graph .day {
-      fill: #6cc644; 
-    }
-    .calendar-graph .day.L2 {
-      fill: #ffce00; 
-    }
-    .calendar-graph .day.L3 {
-      fill: #ff851b; 
-    }
-    .calendar-graph .day.L4 {
-      fill: #e11d21; 
-    }
-    .calendar-graph .day.L2 text,
-    .calendar-graph .day.L3 text,
-    .calendar-graph .day.L4 text {
-      fill: #fff; 
-    }
-    .calendar-graph .day rect {
-      width: 14px; 
-      height: 14px; 
-    }
-	.skills-card{
-		width: auto;
-	}
-	.skills-card-img{
-		display: inline;
-	}
-  </style>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><span>Sak</span>sham.</a>
 
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active__link">Home</a></li>
 
-	<!-- Navbar -->
-	<nav id="nav-menu" class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
-		>
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Saksham<span>.</span></a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
+                    <li><a href="#about" class="nav__link">About</a></li>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-					<li class="nav-item"><a href="#home" class="nav-link home"><span>Home</span></a></li>
-					<li class="nav-item"><a href="#about" class="nav-link about"><span>About</span></a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link skills"><span>Skills</span></a></li>
-					<li class="nav-item"><a href="#services" class="nav-link"><span>Services</span></a></li>
-					<li class="nav-item"><a href="#projects" class="nav-link projects"><span>Projects</span></a></li>
-					<li class="nav-item" id="resume-button-1"><a download href="resume/Saksham_Verma_Resume.pdf"
-							class="nav-link resume"><span>Download
-								CV</span></a></li>
-					<li class="nav-item"><a href="#contact" class="nav-link contact"><span>Contact</span></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+                    <li><a href="#services" class="nav__link">Skills</a></li>
 
-	<!-- Home Section -->
-	<div id="home" class="hero">
-		<div class="home-slider owl-carousel">
-			<div class="slider-item">
-				<div class="overlay"></div>
-				<img src="/images/bgi.jpg" style="display: none;" class="home-img"/>
-				<div class="container-fluid px-md-0">
-					<!--  line 51 -->
-					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-						data-scrollax-parent="true">
-						<div class="one-third order-md-last img " style="background-image:url(images/bgi.jpg);">
-							<div class="overlay"></div>
-							<div class="overlay-1"></div>
-						</div>
-						<div class="one-forth d-flex  align-items-center ftco-animate"
-							data-scrollax=" properties: { translateY: '70%' }">
-							<div class="text">
-								<span class="subheading" id="user-detail-name">Hello! This is Saksham</span>
-								<h1 class="mb-4 mt-3">JAVA <span>Backend</span> Developer</h1>
-								<p><a href="#contact" class="btn btn-primary">Hire me</a> <a download
-										href="resume/Saksham_Verma_Resume.pdf" id="resume-button-2"
-										class="btn btn-primary btn-outline-primary">Download CV</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- line 70 -->
-			<div class="slider-item">
-				<div class="overlay"></div>
-				<div class="container-fluid px-md-0">
-					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
-						data-scrollax-parent="true">
-						<div class="one-third order-md-last img" style="background-image:url(images/bgi.jpg);">
-							<div class="overlay"></div>
-							<div class="overlay-1"></div>
-						</div>
-						<div class="one-forth d-flex align-items-center ftco-animate"
-							data-scrollax=" properties: { translateY: '70%' }">
-							<div class="text">
-								<span class="subheading">I Design &amp; Develop Website</span>
-								<h1 class="mb-4 mt-3">Hi, I am <span>Saksham</span> This is my favorite work.</h1>
-								<p><a href="#contact" class="btn btn-primary">Hire me</a> <a download
-										href="resume/Saksham_Verma_Resume.pdf" id="resume-link-1"
-										class="btn btn-primary btn-outline-primary">Download CV</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                    <li><a href="#portfolio" class="nav__link">Projects</a></li>
 
-	<!-- Counter Section -->
-	<section class="ftco-counter img bg-light" id="section-counter">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 d-flex">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-suitcase"></span>
-						</div>
-						<div class="text">
-							<strong class="number" data-number="16">0</strong>+
-							<span>Projects</span>
-						</div>
-					</div>
-				</div>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
 
-				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 d-flex">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-loyalty"></span>
-						</div>
-						<div class="text">
-							<strong class="number" data-number="450">0</strong>+
-							<span>DSA Problems</span>
-						</div>
-					</div>
-				</div>
+                <div class="nav__close" id="nav-close">
+                    <i class="ui uil-times"></i>
+                </div>
+            </div>
 
-				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 d-flex">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-coffee"></span>
-						</div>
-						<div class="text">
-							<strong class="number" data-number="40">0</strong>+
-							<span>git commit</span>
-						</div>
-					</div>
-				</div>
+            <div class="nav__socials">
+                <a href="https://github.com/sakshamverma72" target="_blank" class="nav__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
 
-				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-					<div class="block-18 d-flex">
-						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-calendar"></span>
-						</div>
-						<div class="text">
-							<strong class="number" data-number="1200">0</strong>+
-							<span>Hours of coding</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<!-- About section -->
-	<section class="about section ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about">
-		<div class="container">
-			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-5 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<img src="images/author.png" alt="">
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
-					<div class="py-md-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								<span class="subheading">My Intro</span>
-								<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-								<p id="user-detail-intro">Originally from India, I have been honing my skills for the past year in Web
-									Development, Backend
-									Development, Algorithms building and Data Structures.</p>
+                <a href="https://twitter.com/sakshamverma__" target="_blank" class="nav__social-link">
+                    <i class="uil uil-twitter"></i>
+                </a>
 
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Name:</span> <span>Saksham Verma</span></li>
-									<li class="d-flex"><span>Date of birth:</span> <span>Oct 05, 2001</span></li>
-									<li class="d-flex"><span>Address:</span> <span>Gurugram, Haryana, India</span></li>
-									<li class="d-flex"><span>Zip code:</span> <span>122102</span></li>
-									<li class="d-flex"><span>Email:</span> <span>sakshamverma72@gmail.com</span></li>
-									<li class="d-flex"><span>Phone: </span> <span>+91-7011421643</span></li>
-								</ul>
-							</div>
-							<div class="col-md-12">
-								<div class="my-interest d-lg-flex w-100">
-									<div class="interest-wrap d-flex align-items-center">
-										<div class="icon d-flex align-items-center justify-content-center">
-											<span class="flaticon-listening"></span>
-										</div>
-										<div class="text">Video games</div>
-									</div>
-									<div class="interest-wrap d-flex align-items-center">
-										<div class="icon d-flex align-items-center justify-content-center">
-											<span class="flaticon-suitcases"></span>
-										</div>
-										<div class="text">Travel</div>
-									</div>
-									<div class="interest-wrap d-flex align-items-center">
-										<div class="icon d-flex align-items-center justify-content-center">
-											<span class="flaticon-video-player"></span>
-										</div>
-										<div class="text">Music</div>
-									</div>
-									<div class="interest-wrap d-flex align-items-center">
-										<div class="icon d-flex align-items-center justify-content-center">
-											<span class="flaticon-football"></span>
-										</div>
-										<div class="text">Volleyball</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <a href="https://www.linkedin.com/in/saksham-verma-0094b3111/" target="_blank" class="nav__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </div>
 
-	<!-- Skills section -->
-	<section class="ftco-section bg-light" id="skills">
-		<div class="container">
-			
-			<div class="row justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<span class="subheading">Skills</span>
-					<h2 class="mb-4">My Skills</h2>
-					<p>I strive to create elegant solutions that surprise and delight users, while keeping complex technical
-						dependencies in mind for implementation, scalability and developer sanity.</p>
-				</div>
-			</div>
-			<div class="row progress-circle mb-5">
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card"></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">Core JAVA</h2>
+            <div class="nav__btns">
+                <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='95'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
+    <!-- main -->
+    <main class="main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Welcome to my world...</span>
+                    <h1 class="home__title">
+                        Hi, I'm Saksham <span>Java Developer</span> based in INDIA.
+                    </h1>
+                    <a download href="resume/Saksham-Verma-Resume.pdf" class="nav__link-btn btn home__resume"><i class="fa-solid fa-download"></i> Download CV</a>
+                </div>
 
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card"></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">HTML | CSS3 | JS
-						</h2>
+                <img src="/img/me.jpg" class="home__img" alt="">
+            </div>
+        </section>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='98'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+        <!-- about -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <img src="/img/3d-2.png" alt="" class="about__img" />
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
+                <div class="about__content">
+                    <h2 class="section__title">About me</h2>
+                    <p class="about__description">
+                        Originally from India, I have been honing my skills for the past year in Web Development,
+                        Backend Development, Algorithms building and Data Structures.
+                    </p>
+                    <div class="tabs__btns" id="tabs-btns">
+                        <span class="tabs__btn tab__active" data-target="#skills">Coding Prowess</span>
+                        <span class="tabs__btn" data-target="#award">Quantifiable Achievement</span>
+                        <span class="tabs__btn" data-target="#experience">Experience</span>
+                        <span class="tabs__btn" data-target="#education">Education</span>
+                    </div>
 
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card"></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">DSA</h2>
+                    <div class="tabs__content">
+                        <div class="tabs__item tab__active" data-content id="skills">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>Problem-Solving:</span> The ability to analyze problems,
+                                    <span>design algorithms, and develop solutions.</span>
+                                </p>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='68'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">68<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+                                <p class="tabs__description">
+                                    <span>Algorithmic Thinking:</span> A deep understanding of algorithms
+                                    <span>and their application to problem-solving.</span>
+                                </p>
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
+                                <p class="tabs__description">
+                                    <span>Data Structures: </span> Knowledge and skill in implementing
+                                    <span>and using different data structures.</span>
+                                </p>
+                            </div>
+                        </div>
 
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card"></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">Hibernate</h2>
+                        <div class="tabs__item" data-content id="award">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>16 </span>+
+                                    <span>PROJECTS</span>
+                                </p>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='92'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+                                <p class="tabs__description">
+                                    <span>450</span> +
+                                    <span>DSA PROBLEMS</span>
+                                </p>
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
+                                <p class="tabs__description">
+                                    <span>1200</span> +
+                                    <span>HOURS OF CODING</span>
+                                </p>
+                            </div>
+                        </div>
 
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card"></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">Apache Maven</h2>
+                        <div class="tabs__item" data-content id="experience">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>RO CARE India</span> Customer Care Executive
+                                    <span>March 2020 - October 2020</span>
+                                </p>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='83'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+                                <p class="tabs__description">
+                                    <span>RO CARE India</span> Vendor Management Executive
+                                    <span>October 2020 - April 2021</span>
+                                </p>
+                            </div>
+                        </div>
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
+                        <div class="tabs__item" data-content id="education">
+                            <div class="tabs__data grid">
+                                <p class="tabs__description">
+                                    <span>AISSCE(12<sup>th</sup>)</span> National Institute of Open Schooling
+                                    <span>04/2020 - 03/2021 | Delhi, India</span>
+                                </p>
 
-				<div class="col-lg-4 mb-4">
-					<div class="bg-white rounded-lg shadow p-4">
-						<div class="skills-card "></div>
-						<h2 class="skills-card-img skills-card-name" class="h5 font-weight-bold text-center mb-4">MySQL</h2>
+                                <p class="tabs__description">
+                                    <span>Java Backend Development (Full Time)</span> Masai School
+                                    <span>09/2022 - 04/2023 | Bengaluru, India</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Progress bar 1 -->
-						<div class="progress mx-auto" data-value='95'>
-							<span class="progress-left">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<span class="progress-right">
-								<span class="progress-bar border-primary"></span>
-							</span>
-							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-							</div>
-						</div>
-						<!-- END -->
+        <!-- skills -->
+        <section class="services section" id="services">
+            <h2 class="section__title">My Skills</h2>
+            <p class="section__description">
+                I strive to create elegant solutions that surprise and delight users, while keeping complex technical
+                dependencies in mind for implementation, scalability and developer sanity.
+            </p>
 
-						<!-- Demo info -->
-						<div class="row text-center mt-4">
-							<div class="col-6 border-right">
-								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
-							</div>
-							<div class="col-6">
-								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
-							</div>
-						</div>
-						<!-- END -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-brands fa-java services__icon"></i>
 
-	<!-- Services Section -->
-	<section class="ftco-section" id="services">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
-					<span class="subheading">I am great at</span>
-					<h2 class="mb-4">I do exemplary work on the projects I am involved in</h2>
-					<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p> -->
-				</div>
-			</div>
+                    <h3 class="services__title">Core JAVA</h3>
+                    <p class="services__description">Java is a versatile, object-oriented programming language known for
+                        its portability, security features, and platform independence.</p>
+                </div>
 
-			<div class="row">
-				<div class="col-md-6 col-lg-3">
-					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-3d-design"></span>
-						</div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Web Design</h3>
-							<p>As you can notice from my portfolio, I do a pretty good job of designing a web page</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-						<div class="icon shadow d-flex align-items-center justify-content-center"><span
-								class="flaticon-app-development"></span></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">DB Management</h3>
-							<p>With knowledge of MySQL I am able to manage and develop databses with ease</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-						<div class="icon shadow d-flex align-items-center justify-content-center"><span
-								class="flaticon-web-programming"></span></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">Web Development</h3>
-							<p>Due to 1200+ hours of coding, I can develop both frontend and backend of a website</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-3">
-					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-						<div class="icon shadow d-flex align-items-center justify-content-center"><span
-								class="flaticon-branding"></span></div>
-						<div class="media-body">
-							<h3 class="heading mb-3">API Deployment</h3>
-							<p>Good knowledge of REST API and how to deploy it with datase server</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="services__item">
+                    <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+                    <svg style="color: rgb(253, 73, 103);" role="img" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>Spring Boot</title>
+                        <path
+                            d="m23.693 10.7058-4.73-8.1844c-.4094-.7106-1.4166-1.2942-2.2402-1.2942H7.2725c-.819 0-1.8308.5836-2.2402 1.2942L.307 10.7058c-.4095.7106-.4095 1.873 0 2.5837l4.7252 8.189c.4094.7107 1.4166 1.2943 2.2402 1.2943h9.455c.819 0 1.826-.5836 2.2402-1.2942l4.7252-8.189c.4095-.7107.4095-1.8732 0-2.5838zM10.9763 5.7547c0-.5365.4377-.9742.9742-.9742s.9742.4377.9742.9742v5.8217c0 .5366-.4377.9742-.9742.9742s-.9742-.4376-.9742-.9742zm.9742 12.4294c-3.6427 0-6.6077-2.965-6.6077-6.6077.0047-2.0896.993-4.0521 2.6685-5.304a.8657.8657 0 0 1 1.2142.1788.8657.8657 0 0 1-.1788 1.2143c-2.1602 1.6048-2.612 4.6592-1.0072 6.8194 1.6049 2.1603 4.6593 2.612 6.8195 1.0072 1.2378-.9177 1.9673-2.372 1.9673-3.9157a4.8972 4.8972 0 0 0-1.9861-3.925c-.386-.2824-.466-.8284-.1836-1.2143.2824-.386.8283-.466 1.2143-.1835 1.6895 1.2471 2.6826 3.2238 2.6873 5.3228 0 3.6474-2.965 6.6077-6.6077 6.6077z"
+                            fill="#fd4967"></path>
+                    </svg>
 
-	<!-- Hire Me Button Section -->
-	<section class="ftco-hireme">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-md-8 col-lg-8 d-flex align-items-center">
-					<div class="w-100 py-4">
-						<h2>Have a project on your mind.</h2>
-						<p>I've worked with small, agile teams on skunkworks projects and clones of multiple websites</p>
-						<p class="mb-0"><a href="#contact" class="btn btn-white py-3 px-4">Contact me</a></p>
-					</div>
-				</div>
-				<div class="col-md-4 col-lg-4 d-flex align-items-end">
-					<!-- <img src="images/author.png" class="img-fluid" alt=""> -->
-				</div>
-			</div>
-		</div>
-	</section>
+                    <h3 class="services__title">Spring Boot</h3>
+                    <p class="services__description">Spring Boot is a Java-based framework designed to simplify the
+                        development of stand-alone, production-grade Spring applications.</p>
+                </div>
 
-	<!-- Project Section -->
-	<section class="ftco-section ftco-project" id="projects">
-		<div class="container-fluid px-md-4">
-			<div class="row justify-content-center pb-5">
-				<div class="col-md-12 heading-section text-center ftco-animate">
-					<span class="subheading">Accomplishments</span>
-					<h2 class="mb-4">My Projects</h2>
-					<p>I've worked with small, agile teams on skunkworks projects and clones of multiple websites like
-						wrike.com and NNNOW.com</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 project-card">
-					<img src="" alt="">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(/images/your_collaborator.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3 class="project-title"><a class="project-deployed-link"
-									href="https://drive.google.com/file/d/1zam7yyIO7WX6_FSl4ZSfbyfxVGB0FNJQ/view?usp=sharing" target="_blank">Clone of wrike.com
-									<span class="fa fa-globe" style="color: #ffff"></span> </a> <img style="size:192x192;"
-									src="http://https://cdn-icons-png.flaticon.com/512/6049/6049398.png" alt=""> </h3>
-							<span class="project-description project-tech-stack">HTML | CSS3 | JS</span> <br>
-							<a href="https://github.com/sakshamverma72/humble-offer-6148" class="project-github-link"
-								target="_blank"><span class="fa fa-github" style="color: white;"></span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 project-card">
-					<img src="" alt="">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(/images/cosmetica.png);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3 class="project-title"><a class="project-deployed-link"
-									href="https://drive.google.com/file/d/1ycV5PkACPfqPxEEQgHHCd89Qv6rl_gDq/view?usp=sharing"
-									target="_blank">Clone of NNNOW.com <span class="fa fa-globe"
-										style="color: #ffff"></span></a></h3>
-							<span class="project-description project-tech-stack">HTML | CSS3 | JS</span> <br>
-							<a class="project-github-link" href="https://github.com/Itsmearun1/vast-reward-2791"
-								target="_blank"><span class="fa fa-github" style="color: white;"></span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 project-card">
-					<img src="" alt="">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(/images/bus\ reservation.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3 class="project-title"><a class="project-deployed-link"
-									href="https://drive.google.com/file/d/1WkbN6rdws0Finreaj-luap1gRjABz3V5/view?usp=sharing" target="_blank">Bus Ticket Reservation System - JDBC Application <span class="fa fa-globe" style="color: #ffff"></span></a></h3>
-							<span class="project-description project-tech-stack">JAVA | Spring | MySQL | Console Interface</span><br>
-							<a class="project-github-link" href="https://github.com/sakshamverma72/sweet-sea-507/tree/main/BusTicketReservationSystem" target="_blank"><span
-									class="fa fa-github" style="color: white;"></span></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 project-card">
-					<img src="" alt="">
-					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
-						style="background-image: url(images/cab\ booking.jpg);">
-						<div class="overlay"></div>
-						<div class="text text-center p-4">
-							<h3 class="project-title"><a class="project-deployed-link"
-									href="https://drive.google.com/file/d/1bb-iSbvq3PWI2Re6nvcc16DVXTrLNq7z/view?usp=sharing"
-									target="_blank">Online Cab Booking Application <span class="fa fa-globe"
-										style="color: #ffff"></span></a></h3>
-							<span class="project-description project-tech-stack">Java | Hibernate | Spring Framework | Spring Boot |
-								Postman</span> <br>
-							<a class="project-github-link" href="https://github.com/Jasmin2410/mellow-sofa-3715"
-								target="_blank"><span class="fa fa-github" style="color: white;"></span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div class="services__item">
+                    <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+                    <i style="font-size: 2rem;" class="fa-solid fa-folder-tree services__icon"></i>
+                    <h3 class="services__title">DSA</h3>
+                    <p class="services__description"> DSA is a field of computer science that involves the study and
+                        design of efficient algorithms and data structures for solving complex problems.</p>
+                </div>
 
-	<!-- Github Calendar and Stats section -->
-	<div id="calendar"></div>
+                <div class="services__item">
+                    <!-- <i class="uil uil-rss-interface services__icon"></i> -->
 
-	<div github-stats-card style="display: grid; justify-content: center; padding: 10px;">
-		<img src="https://github-readme-stats.vercel.app/api?username=sakshamverma72&show_icons=true&theme=merko" alt="">
-	</div>
+                    <svg style="color: rgb(253, 73, 103);" role="img" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>Apache Maven</title>
+                        <path
+                            d="M4.237.001c-.312-.013-.665.072-.828.457-.158.374-.283 1.188-.34 2.276l1.223.591c-.02-.737.007-1.43.076-2.066-.026.299-.056.96.006 2.039.019.342.049.725.088 1.15.002.024.002.047.007.069a45.485 45.485 0 0 0 .309 2.412c.057.368.126.752.195 1.16l-.01.01c.014.01.015.018.014.023l.03.16c.03.162.06.328.093.494l.108.553.056.289a61.72 61.72 0 0 0 .457 2.068c.09.382.186.78.287 1.186.098.386.199.783.309 1.193.096.362.199.735.303 1.117.003.018.012.036.015.055a145.826 145.826 0 0 0 .34 1.185l.049.174c.078.261.158.533.242.805a4.2 4.2 0 0 1-.293-.135l-.19-.654c-.02-.077-.042-.148-.062-.225l-.002-.004-.004-.002c-.087-.3-.17-.607-.257-.916-.023-.087-.044-.173-.069-.263l-.314-1.178c-.1-.381-.194-.765-.29-1.154-.094-.39-.185-.78-.277-1.172-.093-.401-.181-.8-.265-1.203-.085-.396-.161-.798-.24-1.193a50.315 50.315 0 0 1-.211-1.17c-.004-.013-.006-.03-.01-.041l.004-.002c-.057-.386-.116-.77-.174-1.15a60.905 60.905 0 0 1-.154-1.204 27.447 27.447 0 0 1-.172-2.41l-1.22-.59c-.004.074-.01.15-.013.23-.012.294-.02.605-.023.93a45.3 45.3 0 0 0 .006 1.157c.009.37.025.755.045 1.148.02.336.042.675.07 1.022l.002.039.006.004c.003.023.007.05.006.076.033.368.064.739.107 1.115a34.493 34.493 0 0 0 .303 2.125c.01.064.024.131.035.195a23.418 23.418 0 0 0 .547 2.32c.07.237.14.464.21.68.063.182.13.365.194.545.155.422.327.832.512 1.232l.006.004a.318.318 0 0 0 .02.05c.225.485.475.95.755 1.395.01.013.02.033.03.047-.455-.183-1.259-.098-1.253-.097.83.288 1.557.64 2.016 1.175-.183.2-.523.352-.953.477.594.064.924-.039 1.045-.092-.31.26-.483.732-.635 1.24.35-.57.696-.949 1.033-1.094.078.258.162.524.244.788A147.532 147.532 0 0 0 5.157 24a.56.56 0 0 0 .43-.312c.13-.282.83-1.775 1.908-3.875.413 1.303.88 2.679 1.386 4.109a.494.494 0 0 0 .076-.465 103.735 103.735 0 0 1-1.308-3.945c.154-.299.316-.612.484-.932.125.04.255.094.389.155.203.186.352.491.482.84a1.515 1.515 0 0 0-.334-1.098c1.335.258 2.547.09 3.287-.81a3.97 3.97 0 0 0 .192-.258c-.325.304-.682.404-1.313.273.996-.281 1.523-.617 2.035-1.22.12-.145.244-.303.371-.48-.943.722-1.927.822-2.9.493l-.045-.018c.914.02 2.203-.474 3.092-1.189.41-.33.796-.73 1.17-1.21.28-.359.55-.76.82-1.216.234-.393.468-.824.7-1.293a2.83 2.83 0 0 1-.74.137l-.144.008c-.048.002-.093 0-.146.002.885-.198 1.5-.74 1.994-1.447-.24.117-.628.262-1.07.297-.058.006-.12.006-.182.006-.013-.002-.028 0-.047-.002.306-.078.574-.178.81-.309a3.363 3.363 0 0 0 .358-.236c.044-.037.088-.07.13-.106.099-.086.193-.18.28-.287.028-.034.056-.063.08-.098.036-.05.073-.098.104-.146a8.388 8.388 0 0 0 .51-.828c.015-.031.032-.057.046-.088.04-.084.08-.16.11-.227.042-.099.074-.179.092-.238a.515.515 0 0 1-.108.051c-.273.112-.727.187-1.086.201-.004 0-.008 0-.013.004h-.067c.72-.214 1.067-.45 1.422-.818a13.883 13.883 0 0 0 1.154-1.428c.264-.37.505-.738.692-1.072a6.5 6.5 0 0 0 .298-.592c.066-.157.122-.305.172-.45-.466.01-.986.011-1.48 0 .495.01 1.015.007 1.484-.005.5-1.485.063-2.262.063-2.262s-.526-1.212-1.4-.851c-.426.175-1.172.73-2.083 1.56l.514 1.45a17.561 17.561 0 0 1 1.703-1.602c-.257.22-.807.726-1.615 1.644-.256.29-.537.624-.844.997-.017.02-.035.038-.047.06a51.435 51.435 0 0 0-1.666 2.187c-.248.34-.498.704-.765 1.088h-.016c.002.02-.004.028-.01.032l-.101.152c-.104.155-.213.31-.318.47l-.352.534c-.061.09-.124.181-.186.277-.184.282-.367.573-.558.873a97.351 97.351 0 0 0-1.428 2.338 96.866 96.866 0 0 0-1.341 2.343c-.012.017-.02.04-.034.057a197.256 197.256 0 0 0-.668 1.223l-.097.181c-.17.318-.346.642-.52.979 0 .004-.005.008-.006.013-.026.048-.05.093-.072.141-.117.222-.218.424-.45.87a1.352 1.352 0 0 0-.233-.182l.345-.65c.047-.089.096-.177.143-.27l.04-.077.546-1.001.13-.233v-.006l-.001-.006c.169-.31.345-.62.52-.94.051-.087.102-.173.153-.265.224-.395.454-.794.684-1.197a91.685 91.685 0 0 1 2.135-3.504c.247-.386.503-.77.754-1.152.092-.138.182-.272.279-.41a72.9 72.9 0 0 1 .48-.701c.007-.012.019-.024.026-.037h.006c.26-.356.517-.713.773-1.065.278-.373.554-.735.83-1.09a31.075 31.075 0 0 1 1.777-2.075l-.515-1.446c-.06.057-.126.116-.192.178a32.37 32.37 0 0 0-.758.729c-.295.294-.597.606-.912.935a46.032 46.032 0 0 0-1.632 1.838l-.03.033.002.008c-.017.02-.033.044-.054.064-.266.323-.538.649-.801.985a39.105 39.105 0 0 0-1.445 1.95c-.043.06-.085.126-.127.186a26.458 26.458 0 0 0-1.403 2.303c-.13.247-.256.485-.37.715-.096.195-.187.395-.278.591-.21.463-.398.93-.566 1.399l.002.006a.36.36 0 0 0-.026.058c-.108.303-.203.608-.29.914-.14.174-.302.325-.483.46a3.505 3.505 0 0 0-.131-.153 5.148 5.148 0 0 0 .824-2.211 6.4 6.4 0 0 0-.016-1.488c-.046-.4-.126-.82-.238-1.274-.097-.393-.217-.81-.363-1.248-.091.185-.22.367-.379.545l-.086.094c-.029.032-.06.06-.092.094.434-.674.486-1.397.358-2.148a2.722 2.722 0 0 1-.49.85c-.033.038-.072.077-.11.116-.01.007-.019.018-.033.028.144-.24.25-.467.318-.698a1.29 1.29 0 0 0 .04-.146 2.85 2.85 0 0 0 .038-.225l.018-.146a2.11 2.11 0 0 0-.002-.354c-.003-.04-.004-.076-.01-.113-.01-.055-.016-.105-.027-.154a7.416 7.416 0 0 0-.193-.84c-.01-.028-.015-.056-.026-.084-.027-.079-.048-.149-.072-.209a2.1 2.1 0 0 0-.09-.209.455.455 0 0 1-.035.1c-.102.24-.34.57-.557.8-.003.003-.007.005-.007.01l-.04.043c.318-.58.39-.946.385-1.398a12.274 12.274 0 0 0-.16-1.615 10.68 10.68 0 0 0-.232-1.104 5.853 5.853 0 0 0-.18-.558 6.337 6.337 0 0 0-.172-.391 26.18 26.18 0 0 0 .002-.004C5.576.341 4.82.124 4.82.124s-.27-.11-.582-.123zm3.38 15.783l.032.082v.002c-.06.033-.116.067-.178.097-.012.004-.024.012-.039.018a2.41 2.41 0 0 0 .186-.2zm-.603 1.626c.13.136.25.242.354.32l.07.227a1.866 1.866 0 0 0-.246.053l-.03-.098c-.024-.084-.048-.17-.076-.257l-.021-.073zm.26.875a2.34 2.34 0 0 1 .271.01l.07.229a.778.778 0 0 1 .247-.004l-.326.627a127.643 127.643 0 0 1-.262-.862z"
+                            fill="#fd4967"></path>
+                    </svg>
+                    <h3 class="services__title">Apache Maven</h3>
+                    <p class="services__description">Apache Maven is a powerful build automation and project management
+                        tool for Java projects.
+                    </p>
+                </div>
 
-	<!-- Contact Section -->
-	<section class="ftco-section contact-section ftco-no-pb" id="contact">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 heading-section text-center ftco-animate">
-					<span class="subheading">Contact</span>
-					<h2 class="mb-4">Want to hire me or have a Project?</h2>
-					<p>Get in touch</p>
-				</div>
-			</div>
+                <div class="services__item">
+                    <!-- <i class="uil uil-rss-interface services__icon"></i> -->
 
-			<div class="row block-9">
-				<div class="col-md-8">
-					<form action="https://getform.io/f/fbbdd5e0-e9b3-4cea-9ea4-cc1fa42c4475"
-						class="bg-light p-4 p-md-5 contact-form" method="post">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input name="name" type="text" class="form-control" required placeholder="Your Name">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<input name="email" type="email" class="form-control" required placeholder="Your Email">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input name="subject" type="text" class="form-control" required placeholder="Subject">
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<textarea name="message" id="" cols="30" rows="7" required class="form-control"
-										placeholder="Message"></textarea>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-								</div>
-							</div>
-						</div>
-					</form>
+                    <svg style="color: rgb(253, 73, 103);" role="img" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>MySQL</title>
+                        <path
+                            d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
+                            fill="#fd4967"></path>
+                    </svg>
+                    <h3 class="services__title">MySQL</h3>
+                    <p class="services__description">MySQL is an open-source relational database management system
+                        (RDBMS) that uses a structured query language (SQL).
+                    </p>
+                </div>
 
-				</div>
+                <div class="services__item">
+                    <!-- <i class="uil uil-rss-interface services__icon"></i> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#fd4967"
+                            d="M5.365 0L9.98 7.994h8.95L14.31 0zm-.431.248L.46 7.994l4.613 8.008L9.55 8.24zm13.992 7.75l-4.475 7.76l4.617 7.992l4.471-7.744zm-4.905 8.006l-8.95.002L9.688 24h8.946l-4.615-7.994l.001-.002Z" />
+                    </svg>
 
-				<div class="col-md-4 d-flex pl-md-5">
-					<div class="row">
-						<div class="dbox w-100 d-flex">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="fa fa-map-marker"></span>
-							</div>
-							<div class="text">
-								<p><span>Address:</span> Gurugram, Haryana, India</p>
-							</div>
-						</div>
-						<div class="dbox w-100 d-flex">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="fa fa-phone"></span>
-							</div>
-							<div class="text" id="contact-phone">
-								<p><span>Phone:</span> <a href="tel://+91-7011421643"> +91-7011421643</a></p>
-							</div>
-						</div>
-						<div class="dbox w-100 d-flex">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="fa fa-paper-plane"></span>
-							</div>
-							<div class="text" id="contact-email">
-								<p><span>Email:</span> <a href="mailto:sakshamverma72@gmail.com">sakshamverma72@gmail.com</a></p>
-							</div>
-						</div>
-						<div class="dbox w-100 d-flex">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="fa fa-globe"></span>
-							</div>
-							<div class="text">
-								<p><span>Website</span> <a href="https://siddharth263.github.io/">https://sakshamverma72.github.io/</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                    <h3 class="services__title">Hibernate</h3>
+                    <p class="services__description">Hibernate is an open-source, object-relational mapping (ORM)
+                        framework for the Java programming language.</p>
+                </div>
 
-	<!-- Footer Section -->
-	<footer class="ftco-footer ftco-section">
-		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Lets talk about</h2>
-						<p>I also like to talk about anime because I like to watch them. Recently I watched Blue Lock, a sports
-							anime about how to improve your skills to become the best.</p>
-						<p><a href="https://wa.me/+917011421643" target="_blank" class="btn btn-primary">Learn more</a></p>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4 ml-md-4">
-						<h2 class="ftco-heading-2">Links</h2>
-						<ul class="list-unstyled">
-							<li><a href="/"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
-							<li><a href="#about"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-							<li><a href="#services"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
-							<li><a href="#projects"><span class="fa fa-chevron-right mr-2"></span>Projects</a></li>
-							<li><a href="#contact"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-							<li><a download href="resume/Saksham_Verma_Resume.pdf" id="resume-link-2"><span
-										class="fa fa-chevron-right mr-2"></span>Download CV</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md">
-					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Have a Questions?</h2>
-						<div class="block-23 mb-3">
-							<ul>
-								<li><span class="icon fa fa-map marker"></span><span class="text">Gurugram, Haryana, India</span></li>
-								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+91-7011421643</span></a></li>
-								<li><a href="https://sakshamverma72.github.io/"><span class="icon fa fa-paper-plane pr-4"></span><span
-											class="text">https://sakshamverma72.github.io/</span></a></li>
-							</ul>
-						</div>
-						<ul class="ftco-footer-social list-unstyled mt-2">
-							<li class="ftco-animate"><a href="https://twitter.com/sakshamverma__" target="_blank"><span
-										class="fa fa-twitter"></span></a></li>
-							<li class="ftco-animate" id="contact-linkedin"><a href="https://www.linkedin.com/in/saksham-verma-0094b3111/"
-									target="_blank"><span class="fa fa-linkedin"></span></a></li>
-							<li class="ftco-animate" id="contact-github"><a href="https://github.com/sakshamverma72"
-									target="_blank"><span class="fa fa-github"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
+                <div class="services__item">
+                    <i style="font-size: 2rem;" class="fa-brands fa-html5 services__icon"></i>
+                    <h3 class="services__title">HTML5</h3>
+                    <p class="services__description">HTML (HyperText Markup Language) is a standard markup language used
+                        to create and design documents on the World Wide Web.</p>
+                </div>
 
-					<p>
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script> All rights reserved | Saksham
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+                <div class="services__item">
+                    <i style="font-size: 2rem;" class="fa-brands fa-css3-alt services__icon"></i>
+                    <h3 class="services__title">CSS</h3>
+                    <p class="services__description">CSS (Cascading Style Sheets) is a style sheet language used to
+                        describe the presentation and formatting of a document written in HTML or XML.</p>
+                </div>
 
-	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-				stroke="#F96D00" />
-		</svg>
-	</div>
+                <div class="services__item">
+                    <i style="font-size: 2rem;" class="fa-brands fa-square-js services__icon"></i>
+                    <h3 class="services__title">Javascript</h3>
+                    <p class="services__description">JavaScript (JS) is a versatile and widely used programming language
+                        primarily known for its role in web development.</p>
+                </div>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
+            </div>
+        </section>
 
-	<script src="js/main.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/github-calendar/dist/github-calendar.min.js"></script>
-	<script>
-		new GitHubCalendar("#calendar", "sakshamverma72");
-	</script>
+        <!-- Projects -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Projects</h2>
+            <p class="section__description">
+                Versatile developer adept at creating innovative solutions, specializing in projects like online cab
+                booking and bus reservation systems, with a commitment to delivering seamless user experiences.</p>
+            <div class="portfolio__container container grid">
+                <div onclick="projectCab()" class="portfolio__item">
+                    <img src="/img/cab booking.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">Java | Hibernate | Spring Boot |
+                            Postman</p>
+                        <h3 class="portfolio__title">Online Cab Booking System</h3>
+                        <p class="portfolio__description">Designed and implemented a streamlined cab booking system,
+                            optimizing user experience and ensuring efficient transportation services.</p>
+                    </div>
+                </div>
+
+                <div onclick="projectBus()" class="portfolio__item">
+                    <img src="/img/bus reservation.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">JAVA | Spring | MySQL | Console Interface</p>
+                        <h3 class="portfolio__title">Bus Ticket Reservation System - JDBC Application</h3>
+                        <p class="portfolio__description">Developed a user-friendly online bus booking system, enhancing
+                            accessibility and facilitating seamless travel arrangements.</p>
+                    </div>
+                </div>
+
+                <div onclick="projectCosmetica()" class="portfolio__item">
+                    <img src="/img/cosmetica.jpg" alt="" class="portfolio__img">
+
+                    <div class="portfolio__data">
+                        <p class="portfolio__subtitle">HTML | CSS3 | JS</p>
+                        <h3 class="portfolio__title">Clone of NNNOW.com</h3>
+                        <p class="portfolio__description">Crafted a replica of a cosmetic website, featuring an array of
+                            beauty products and an engaging user interface for an immersive shopping experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h2 class="section__title">Hire me</h2>
+                    
+                    <p class="contact__description">
+                        Mobile no:
+                        <a href="tel:+917011421643">7011421643</a> 
+                        
+                        or Mail:
+                        <a href="mailto:sakshamverma72@gmail.com">sakshamverma72@gmail.com</a>
+                    </p>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="contact__form-input">
+                            <input type="text" name="name" placeholder="Name" class="contact__input"
+                                id="contact-name" />
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="email" name="email" placeholder="Email" class="contact__input"
+                                id="contact-email" />
+                        </div>
+
+                        <div class="contact__form-input">
+                            <input type="text" name="subject" placeholder="Subject" class="contact__input"
+                                id="contact-subject" />
+                        </div>
+
+                        <div class="contact__form-input">
+                            <textarea name="message" id="contact-message" class="contact__input textarea"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <input type="submit" value="Submit" class="btn" />
+                        <p class="error__message" id="error-message"></p>
+                    </form>
+                </div>
+
+                <img src="/img/me.jpg" alt="" class="contact__img" />
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <a href="index.html" class="footer__logo">S<span>V.</span></a>
+
+            <div class="footer__socials">
+                <a href="https://github.com/sakshamverma72" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://twitter.com/sakshamverma__" target="_blank" class="footer__social-link">
+                    <i class="uil uil-twitter"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/saksham-verma-0094b3111/" target="_blank"
+                    class="footer__social-link">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </div>
+
+            <p class="footer__copyright">©
+                <script>document.write(new Date().getFullYear());</script> All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!-- email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- main js -->
+    <script src="/js/main.js"></script>
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/d1da2a05d8.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
