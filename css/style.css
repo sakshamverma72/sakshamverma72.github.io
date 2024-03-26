@@ -477,11 +477,17 @@ input {
 }
 
 .portfolio__subtitle {
+    /* display: inline; */
+    border-radius: 10px;
+    background-color: rgb(236, 97, 97, 0.5);
     font-size: var(--small-font-size);
     margin-bottom: 0.25rem;
 }
 
 .portfolio__title {
+    /* display: inline; */
+    border-radius: 10px;
+    background-color: rgb(236, 97, 97, 0.5);
     font-size: var(--h2-font-size);
     font-weight: var(--weight-600);
     margin-bottom: 0.75rem;
